@@ -65,4 +65,4 @@ ___
   - login, logout
     - accounts/forms LoginForm
     - accounts/view my_login, my_logout
-    - 
+    - accounts/url accounts:login, logout
