@@ -39,7 +39,7 @@ class BookmarkCreateView(LoginRequiredMixin, CreateView):
     def get_initial(self):
         #user -> profile
         user = self.request.user
-        profile = Profile.objects.get(user = user)
+        profile = Profile.objects.get(user=user)
         return {'profile': profile}
 
 class BookmarkDetailView(LoginRequiredMixin,DetailView):
