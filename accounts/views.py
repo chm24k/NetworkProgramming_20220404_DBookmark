@@ -1,4 +1,5 @@
 from django.contrib.auth import logout, authenticate, login
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 
 # Create your views here.
@@ -35,7 +36,7 @@ def my_login(request):
         return render(request, 'accounts/login.html', {'form':form})
 
 
-
+@login_required
 def my_logout(request):
     logout(request)
     return redirect('bookmark:list')
