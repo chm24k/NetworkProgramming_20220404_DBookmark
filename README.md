@@ -75,3 +75,5 @@ ___
       - FBV: @login_required
       - CBV: (LoginRequiredMixin, )
         - bookmark/views BookmarkCreateView, BookmarkDetailView, BookmarkUpdateView, BookmarkDeleteView
+    - 로그인 요구할 때, 이용할 URL setting
+      - settings, LOGIN_URL
