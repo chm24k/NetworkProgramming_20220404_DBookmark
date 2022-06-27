@@ -14,5 +14,6 @@ urlpatterns = [
     # path('detail/<int:pk>/',BookmarkDetailView.as_view(), name='detail'),    #bookmark:detail  특정값을 가져오기 위해 int:pk를 사용한다.
     path('detail2/<int:pk>/',views.detail_bookmark, name='detail'),
     path('edit/<int:pk>/', BookmarkUpdateView.as_view(), name='edit'),      #bookmark:edit
-    path('delete/<int:pk>/',BookmarkDeleteView.as_view(), name='delete')    #bookmark:delete
+    #path('delete/<int:pk>/',BookmarkDeleteView.as_view(), name='delete')    #bookmark:delete
+    path('delete2/<int:pk>/',views.delete_bookmark, name='delete'),    #bookmark:delete
 ]

@@ -85,3 +85,6 @@ ___
   - FBV detail_bookmark
     - bookmark/views
     - bookmark/urls
+  - FBV delete_bookmark
+    - bookmark/views
+    - bookmark/urls
