@@ -92,3 +92,4 @@ ___
     - bookmark/forms
     - bookmark/views
     - bookmark/urls
+    - urls에 http://, https:// 없으면, 추가하자
