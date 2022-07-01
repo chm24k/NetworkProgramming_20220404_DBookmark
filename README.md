@@ -93,3 +93,7 @@ ___
     - bookmark/views
     - bookmark/urls
     - urls에 http://, https:// 없으면, 추가하자
+  - FBV modify_bookmark
+    - bookmark/forms
+    - bookmark/views
+    - bookmark/urls
